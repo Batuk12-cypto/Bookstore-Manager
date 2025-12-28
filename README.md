@@ -1,6 +1,3 @@
-Below is an improved, recruiter‑friendly `README.md` based on your content and the guidelines you wrote.
-
-```md
 # 📚 Bookstore Manager (MERN)
 
 Bookstore Manager is a full‑stack MERN application that lets users add, edit, list, and delete books through a clean dashboard interface.  
@@ -79,7 +76,7 @@ root
 
 ### 1️⃣ Backend setup
 
-```
+```bash
 cd server
 npm install
 # ensure MongoDB is running and connection string in database.js is correct
@@ -91,7 +88,7 @@ node index.js
 
 ### 2️⃣ Frontend setup
 
-```
+```bash
 cd client
 npm install
 npm run dev
@@ -155,7 +152,7 @@ See `server/controller/book.controller.js` for exact fields and response shapes.
 - MongoDB connection is configured in `server/database.js`  
 - To use environment variables, create `server/.env`:
 
-```
+```env
 MONGODB_URI=your-mongodb-connection-string
 PORT=8000
 ```
@@ -191,9 +188,3 @@ In the frontend, update `client/axiosinstance.js` if you change the API base URL
 - Managing state and forms in React
 - Styling a modern dashboard UI with Tailwind CSS
 - Working with MongoDB using Mongoose models and controllers
-```
-
-This version keeps all your technical details but organizes them for recruiters: clear intro, tech stack, features, structure, setup, API, and future work.
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/147739056/ad908dd4-e766-4bd0-a617-6b8d9dfcebfc/image.jpg)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/147739056/2ab4ab4c-447a-4113-a29d-cf4213e88b90/image.jpg)
